@@ -1,0 +1,117 @@
+body¨{
+    font-family: Georgia, 'Times New Roman', serif;
+    color:rgb(206, 110, 110);
+    font-size: 1.3rem;
+    line-height: 1.6em;
+    margin: 0;
+}
+hr{
+    color: brown;
+}
+
+h1{
+    font-size: 2rem;
+    line-height: 1.3em;
+    color: coral;
+   
+}
+h2{
+    text-align: center;
+    color: coral;
+}
+h3{
+    color: coral;
+}
+
+.sabores{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+}
+
+p{
+margin-bottom: 1.6em;    
+}
+.container{
+    width: 95%;
+    max-width: 1400px;
+    margin: 0  auto;
+}
+.cabezera {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    margin: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.header {
+    background: rgb(172, 121, 121);
+    color: rgb(206, 34, 34);
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+ .header a{
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+ }
+
+.logo-nap-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    
+    letter-spacing: 5px;
+    font-size: 1.2em;
+}
+.menu-icon {
+    display: none;
+
+}
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+    .navigation ul li {
+        display: inline-block;
+    }
+        .navigation ul li a {
+            display: block;
+            padding: 0.5rem 1rem;
+            transition: all 0.45s linear;
+            border-radius: 5px;
+        }
+
+            .navigation ul li a:hover{
+                background-color: #4a4a4a;
+            }
+
+.main {
+    padding-top: 2rem;
+}
+footer {
+    background: #eeaeae;
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+@media only screen and (max-width: 767px) {
+
+
+
+
+
+}

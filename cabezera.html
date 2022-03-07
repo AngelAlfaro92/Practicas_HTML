@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria El Angel </title>
+    <link href="style.css" rel="stylesheet">
+
+    <header class="cabezera"><br><br><br><br>
+        <img src="Imagenes/choska.png"
+    </header>
+
+
+</head>
+<br>
+    <body>
+        <header class="header">
+            <div class="container logo-nap-container">
+                <img src="Imagenes/LOGO.png" width="70" height="70">
+        
+                    <a href="#" class="logo">SABOR DEL CIELO </a>
+                    <span class="menu-icon">ver menú</span>
+                    <nav class="navigation">
+                    <ul>
+                        <li><a href="#"> Pasteles</a></li>
+                        <li><a href="#"> Hacer un pedido</a></li>
+                        <li><a href="#"> Contactanos</a></li>
+                        <li><a href="#"> Ingresar</a></li>
+                    </ul>
+
+                 </nav>
+
+            </div>
+        </header>
+        <main
+    
+        
+            class="main">
+            <div class="container">
+
+                <hr>
+                <h1> Pasteles</h1> 
+                <h2>Elige tu sabor favorito</h2>
+                <br><br>
+                <div class="sabores">
+                    <img src="Imagenes/Fresa.png" width="600" height="400">
+                    <img src="Imagenes/Moras.png" width="600" height="400">
+                    <br><br><br><br><br><br>
+                    <img src="Imagenes/Vainilla y chocolate.png" width="600" height="400">
+                    <img src="Imagenes/cupe.png" width="600" height="400">
+                </div>
+
+                <br><br><br><br><br><br>
+
+                <hr>
+                <h1>Hacer un pedido</h1>
+                <h3>Selecciona los ingredientes que mas te gustan</h3><br>
+                <label for="sabor-pastel">Elige el sabor del pastel</label><br>
+                <input list="sabor-pastel">
+                <datalist id="sabor-pastel">
+                    <option value="Chocolate">
+                    <option value="Fresa">
+                    <option value="Nuez">
+                    <option value="Moka">
+                </datalist>
+                <br><br>
+                <label for="decoracion">Elige los ingredientes de decoracion</label><br>
+                <input list="decoracion">
+                <datalist id="decoracion">
+                    <option value="Chispas de chocolate">
+                    <option value="Nuez">
+                    <option value="Fresa">
+                    <option value="Chispas de colores">
+                </datalist>
+                <br><br>
+                <p>Ingresa la fecha en que deseas tu pedido</p>
+            
+                <input type="date" id="fecha1" name="fecha1"><br>
+                <br><br>
+                <hr>
+                <h1>Contactanos</h1>
+                
+                <form action="/accion.js" id="form1" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre"><br><br>
+                    
+            
+                </form>
+                
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" form="form1">
+                <br><br>
+                <input type="submit" value="Submit">
+            
+
+  
+
+
+            </div>
+            
+
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <p>Pagina diseñada por mi </p>
+
+
+            </div>
+
+        </footer>
+
+    </body>
+</html>
